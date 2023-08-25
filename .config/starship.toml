@@ -1,0 +1,89 @@
+[env_var.DB_NAME]
+format = 'with [DB_NAME=](bright-grey)[$env_value](bright-white) '
+
+[aws]
+symbol = "  "
+disabled = true
+
+[gcloud]
+symbol = "  "
+disabled = true
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+disabled = false
+threshold = -1
+style = "bold dimmed green"
+format = '$symbol [${ram}]($style) '
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[package]
+symbol = " "
+disabled = true
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shlvl]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
+[character]
+success_symbol = " [λ](grey)"
+error_symbol = " [λ](bold red)"
+

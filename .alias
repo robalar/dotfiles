@@ -1,0 +1,6 @@
+alias rs="python manage.py runserver"
+alias mm="python manage.py makemigrations"
+alias m="python manage.py migrate"
+alias sp="python manage.py shell_plus"
+alias ip="ipython"
+
